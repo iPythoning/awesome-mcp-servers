@@ -1,3 +1,7 @@
+<!-- bmc:front -->
+<p align="center"><a href="https://buymeacoffee.com/dayongfan"><img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&amp;emoji=&amp;slug=dayongfan&amp;button_colour=FFDD00&amp;font_colour=000000&amp;font_family=Cookie&amp;outline_colour=000000&amp;coffee_colour=ffffff" alt="Buy me a coffee"></a></p>
+<!-- /bmc:front -->
+
 [![ไทย](https://img.shields.io/badge/Thai-Click-blue)](README-th.md)
 [![English](https://img.shields.io/badge/English-Click-yellow)](README.md)
 [![繁體中文](https://img.shields.io/badge/繁體中文-點擊查看-orange)](README-zh_TW.md)
@@ -273,7 +277,6 @@ Access and explore art collections, cultural heritage, and museum databases. Ena
 - [TwelveTake-Studios/reaper-mcp](https://github.com/TwelveTake-Studios/reaper-mcp) 🐍 🏠 🍎 🪟 🐧 - MCP server enabling AI assistants to control REAPER DAW for mixing, mastering, MIDI composition, and full music production with 129 tools
 - [yuna0x0/anilist-mcp](https://github.com/yuna0x0/anilist-mcp) 📇 ☁️ - A MCP server integrating AniList API for anime and manga information
 - [yuvalsuede/agent-media](https://github.com/yuvalsuede/agent-media) 📇 ☁️ 🍎 🪟 🐧 - CLI and MCP server for AI video and image generation with unified access to 7 models (Kling, Veo, Sora, Seedance, Flux, Grok Imagine). Provides 9 tools for generating, managing, and browsing media.
-
 
 ### 📐 <a name="architecture-and-design"></a>Architecture & Design
 
@@ -676,7 +679,6 @@ Integration with communication platforms for message management and channel oper
 - [loglux/whatsapp-mcp-stream](https://github.com/loglux/whatsapp-mcp-stream) [![whatsapp-mcp-stream MCP server](https://glama.ai/mcp/servers/@loglux/whatsapp-mcp-stream/badges/score.svg)](https://glama.ai/mcp/servers/@loglux/whatsapp-mcp-stream) 📇 🏠 🍎 🪟 🐧 - WhatsApp MCP server over Streamable HTTP with web admin UI (QR/status/settings), bidirectional media upload/download, and SQLite persistence.
 - [Zacccck/Claude-MCP-Read-Email-Attachments](https://github.com/Zacccck/Claude-MCP-Read-Email-Attachments) [![Zacccck/Claude-MCP-Read-Email-Attachments MCP server](https://glama.ai/mcp/servers/Zacccck/Claude-MCP-Read-Email-Attachments/badges/score.svg)](https://glama.ai/mcp/servers/Zacccck/Claude-MCP-Read-Email-Attachments) 📇 ☁️ 🏠 🪟 - Remote HTTP MCP server that reads Outlook email attachments via Microsoft Graph. Parses PDF, Word (with embedded image extraction for multimodal analysis), Excel, and text files in-memory and returns structured content directly to Claude.
 
-
 ### 🗣️ <a name="conversational-ai"></a>Conversational AI
 
 Tools for building and operating AI conversation agents that hold structured dialogues with end users.
@@ -684,13 +686,11 @@ Tools for building and operating AI conversation agents that hold structured dia
 - [kiro0x/five-mcp](https://github.com/kiro0x/five-mcp) [![kiro0x/five-mcp MCP server](https://glama.ai/mcp/servers/kiro0x/five-mcp/badges/score.svg)](https://glama.ai/mcp/servers/kiro0x/five-mcp) 🐍 🏠 - LLM character consistency engine — generates structured JSON constraints from 4 multiple-choice questions about an AI's psychology. Drop the JSON into any LLM's system prompt to prevent persona drift; reduces inference cost from retries. 160,000 personality patterns; works with any LLM.
 - [Perspective-AI/mcp](https://github.com/Perspective-AI/mcp) [![Perspective-AI/mcp MCP server](https://glama.ai/mcp/servers/Perspective-AI/mcp/badges/score.svg)](https://glama.ai/mcp/servers/Perspective-AI/mcp) 🎖️ 📇 ☁️ - Official MCP server for [Perspective AI](https://getperspective.ai). An AI Concierge replaces static forms with adaptive AI conversations for lead qualification, customer research, onboarding feedback, and advocacy. Design conversation agents (Concierge, Interviewer, Evaluator, Advocate), analyze conversations, deploy embeds, and automate follow-ups (webhook, email, Slack, HubSpot).
 
-
 ### 🔑 <a name="cryptography"></a>Cryptography
 
 Tools for encrypting and decrypting data.
 
 - [denismaggior8/enigma-python-mcp](https://github.com/denismaggior8/enigma-python-mcp) [![denismaggior8/enigma-python-mcp MCP server](https://glama.ai/mcp/servers/denismaggior8/enigma-python-mcp/badges/score.svg)](https://glama.ai/mcp/servers/denismaggior8/enigma-python-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - A Model Context Protocol server that brings the capabilities of [enigmapython](https://github.com/denismaggior8/enigma-python) library to LLMs, allowing them to encrypt and decrypt messages using historically accurate Enigma machine emulators.
-
 
 ### 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
 
@@ -866,7 +866,9 @@ Data Platforms for data integration, transformation and pipeline orchestration.
 - [Younghef/nutriref-api](https://github.com/Younghef/nutriref-api) [![Younghef/nutriref-api MCP server](https://glama.ai/mcp/servers/Younghef/nutriref-api/badges/score.svg)](https://glama.ai/mcp/servers/Younghef/nutriref-api) 🐍 ☁️ 🍎 🪟 🐧 - USDA FoodData Central nutrition for AI agents — pay-per-call in USDC on Base via x402. Four tools (search, detail, compare, recipe) at $0.001–$0.005 per call. No signup, no API keys; MCPB-packaged for one-click install.
 - [Leekangbum/networklytics-mcp](https://github.com/Leekangbum/networklytics-mcp) [![Leekangbum/networklytics-mcp MCP server](https://glama.ai/mcp/servers/Leekangbum/networklytics-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Leekangbum/networklytics-mcp) 🐍 - YouTube comment social network analysis (SNA): influencer centrality ranking, community detection (Louvain), sentiment analysis, and public JSON API for AI agents
 
-
+<!-- bmc:middle -->
+<p align="center"><a href="https://buymeacoffee.com/dayongfan"><img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&amp;emoji=&amp;slug=dayongfan&amp;button_colour=FFDD00&amp;font_colour=000000&amp;font_family=Cookie&amp;outline_colour=000000&amp;coffee_colour=ffffff" alt="Buy me a coffee"></a></p>
+<!-- /bmc:middle -->
 
 ### 💻 <a name="developer-tools"></a>Developer Tools
 - [forgemeshlabs/aso-audit-mcp](https://github.com/forgemeshlabs/aso-audit-mcp) [![forgemeshlabs/aso-audit-mcp MCP server](https://glama.ai/mcp/servers/forgemeshlabs/aso-audit-mcp/badges/score.svg)](https://glama.ai/mcp/servers/forgemeshlabs/aso-audit-mcp) 📇 🏠 ☁️ 🍎 🪟 🐧 - Free Agent Signal Optimization scanner for website/API agent readiness. Scores discovery, identity, trust, commerce, reputation, and memory signals; validates robots.txt AI bot rules, llms.txt, agent.json, Google A2A agent cards, MCP server cards, API catalogs, OAuth metadata, x402, pricing, security.txt, status endpoints, and cross-file identity consistency. Returns ASO maturity levels, evidence, and prioritized fix plans. Local stdio or Glama-hosted, no API key required. `npx -y @forgemeshlabs/aso-audit-mcp`.
@@ -1727,6 +1729,6 @@ Integration with gaming related data, game engines, and services
 - [3aKHP/prts-mcp](https://github.com/3aKHP/prts-mcp) [![3aKHP/prts-mcp MCP server](https://glama.ai/mcp/servers/3aKHP/prts-mcp/badges/score.svg)](https://glama.ai/mcp/servers/3aKHP/prts-mcp) 🐍 📇 ☁️ 🏠 - MCP Server for [Arknights](https://www.arknights.global/), querying the [PRTS Wiki](https://prts.wiki) API and serving auto-synced operator archives and voice lines from game data. Designed for fan-creation (同人創作) AI agents. Python (stdio/Docker) and TypeScript (Streamable HTTP) implementations.
 - [butterlatte-zhang/unity-ai-bridge](https://github.com/butterlatte-zhang/unity-ai-bridge) [![butterlatte-zhang/unity-ai-bridge MCP server](https://glama.ai/mcp/servers/butterlatte-zhang/unity-ai-bridge/badges/score.svg)](https://glama.ai/mcp/servers/butterlatte-zhang/unity-ai-bridge) #�
 
-## Support
-
-[![Buy me a coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=&slug=dayongfan&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff)](https://buymeacoffee.com/dayongfan)
+<!-- bmc:end -->
+<p align="center"><a href="https://buymeacoffee.com/dayongfan"><img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&amp;emoji=&amp;slug=dayongfan&amp;button_colour=FFDD00&amp;font_colour=000000&amp;font_family=Cookie&amp;outline_colour=000000&amp;coffee_colour=ffffff" alt="Buy me a coffee"></a></p>
+<!-- /bmc:end -->
